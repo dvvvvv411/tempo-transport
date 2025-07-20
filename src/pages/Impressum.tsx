@@ -34,6 +34,7 @@ const Impressum = () => {
                 <p><strong>Geschäftsführer:</strong> Kaan Andre Gündüz</p>
                 <p><strong>Anschrift:</strong> Lange Heide 15<br />
                    50374 Erftstadt</p>
+                <p><strong>Telefon:</strong> +49 241 94223026</p>
                 <p><strong>E-Mail:</strong> info@tempo-logistik.de</p>
                 <p><strong>Handelsregister:</strong> HRB 110780</p>
                 <p><strong>Registergericht:</strong> Amtsgericht Köln</p>

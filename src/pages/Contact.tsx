@@ -1,4 +1,4 @@
-import { MapPin, Mail, Clock } from "lucide-react";
+import { MapPin, Mail, Phone, Clock } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -55,6 +55,18 @@ const Contact = () => {
                   </div>
                 </div>
 
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                    <Phone className="text-primary-foreground w-6 h-6" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
+                    <p className="text-muted-foreground">
+                      +49 241 94223026
+                    </p>
+                  </div>
+                </div>
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
