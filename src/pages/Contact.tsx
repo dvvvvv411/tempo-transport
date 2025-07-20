@@ -162,7 +162,7 @@ const Contact = () => {
                <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Erfahrung</h3>
                 <p className="text-muted-foreground">
-                  Über 15 Jahre Expertise in der Logistikbranche und Transportwesen
+                  Über 8 Jahre Expertise in der Logistikbranche und Transportwesen
                 </p>
               </div>
               <div className="p-6">
