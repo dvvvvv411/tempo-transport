@@ -1,4 +1,4 @@
-import { Scan } from "lucide-react";
+import { Truck } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,9 +8,9 @@ const Scanner = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="3D-Scanner Vermietung - artis GmbH"
-        description="Derzeit nicht verfügbar aufgrund der Insolvenz. Professionelle 3D-Scanner-Technologie für präzise Vermessung und digitale Erfassung."
-        keywords="3D-Scanner, Vermietung, Vermessung, Laserscan, Digitalisierung, 3D-Technik"
+        title="Fuhrpark-Management - artis GmbH"
+        description="Professionelle Fuhrpark-Services für Ihre Transportanforderungen. Moderne Fahrzeugflotte für effiziente Logistiklösungen."
+        keywords="Fuhrpark, Fahrzeugflotte, Transport, LKW, Logistik, Spedition"
       />
       <Header />
       
@@ -19,10 +19,10 @@ const Scanner = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              3D-Scanner Vermietung
+              Fuhrpark-Management
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Professionelle 3D-Scanner-Technologie für präzise Vermessung und digitale Erfassung
+              Professionelle Fuhrpark-Services für Ihre Transportanforderungen und Logistiklösungen
             </p>
           </div>
         </section>
@@ -31,7 +31,7 @@ const Scanner = () => {
         <section className="py-20 px-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
-              Verfügbare Scanner-Modelle
+              Verfügbare Fahrzeuge
             </h2>
             
             <div className="bg-muted/30 rounded-lg overflow-hidden">
@@ -40,16 +40,16 @@ const Scanner = () => {
                   <thead className="bg-muted/50">
                     <tr>
                       <th className="px-6 py-4 text-left text-sm font-semibold text-foreground border-b border-border">
-                        Modell
+                        Fahrzeugtyp
                       </th>
                       <th className="px-6 py-4 text-left text-sm font-semibold text-foreground border-b border-border">
-                        Reichweite
+                        Zuladung
                       </th>
                       <th className="px-6 py-4 text-left text-sm font-semibold text-foreground border-b border-border">
-                        Genauigkeit
+                        Laderaum
                       </th>
                       <th className="px-6 py-4 text-left text-sm font-semibold text-foreground border-b border-border">
-                        Scan-Rate
+                        Kraftstoff
                       </th>
                       <th className="px-6 py-4 text-left text-sm font-semibold text-foreground border-b border-border">
                         Besonderheiten
@@ -58,7 +58,7 @@ const Scanner = () => {
                         Preis
                       </th>
                       <th className="px-6 py-4 text-left text-sm font-semibold text-foreground border-b border-border">
-                        Aktion
+                        Verfügbarkeit
                       </th>
                     </tr>
                   </thead>
@@ -66,9 +66,9 @@ const Scanner = () => {
                     <tr className="bg-background">
                       <td colSpan={7} className="px-6 py-12 text-center border-b border-border">
                         <div className="flex flex-col items-center space-y-4">
-                          <Scan className="w-12 h-12 text-muted-foreground" />
+                          <Truck className="w-12 h-12 text-muted-foreground" />
                           <p className="text-lg text-muted-foreground font-medium">
-                            Nichts verfügbar
+                            Derzeit keine Fahrzeuge verfügbar
                           </p>
                         </div>
                       </td>
@@ -86,27 +86,27 @@ const Scanner = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="service-box">
                 <div className="service-icon">
-                  <Scan />
+                  <Truck />
                 </div>
                 <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                  Flexible Mietkonditionen
+                  Flexible Fahrzeugmiete
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Mieten Sie unsere professionellen 3D-Scanner tage-, wochen- oder monatsweise. 
+                  Mieten Sie unsere professionellen Transportfahrzeuge tage-, wochen- oder monatsweise. 
                   Inklusive Einweisung und technischem Support.
                 </p>
               </div>
 
               <div className="service-box">
                 <div className="service-icon">
-                  <Scan />
+                  <Truck />
                 </div>
                 <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                  Service & Support
+                  Service & Wartung
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Umfassende Betreuung von der Geräteauswahl bis zur Datenauswertung. 
-                  Schulungen und technischer Support inklusive.
+                  Umfassende Betreuung von der Fahrzeugauswahl bis zur Rückgabe. 
+                  Wartung und technischer Support inklusive.
                 </p>
               </div>
             </div>

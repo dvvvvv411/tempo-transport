@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const navItems = [
     { name: "Startseite", href: "/" },
-    { name: "Ingenieurbüro", href: "/ingenieurburo" },
-    { name: "3D-Scanner", href: "/3d-scanner" },
+    { name: "Transportlogistik", href: "/ingenieurburo" },
+    { name: "Fuhrpark", href: "/3d-scanner" },
     { name: "Über uns", href: "/ueber-uns" },
     { name: "Kontakt", href: "/kontakt" },
   ];

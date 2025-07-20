@@ -8,9 +8,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="artis GmbH - Bauplanung & 3D-Technik"
-        description="Ihr zuverlässiger Partner für professionelle Bauplanung und modernste 3D-Scanner-Technologie. Umfassende Ingenieursdienstleistungen für Ihr Bauprojekt."
-        keywords="Bauplanung, 3D-Scanner, Ingenieursbüro, Vermessungstechnik, Tragwerksplanung, artis GmbH"
+        title="artis GmbH - Logistik & Transport"
+        description="Ihr zuverlässiger Partner für professionelle Logistikdienstleistungen und effiziente Transportlösungen. Umfassende Speditions- und Lagerservices."
+        keywords="Logistik, Transport, Spedition, Fuhrpark, Lagerlogistik, Transportdienstleistungen, artis GmbH"
       />
       <Header />
       
@@ -22,7 +22,7 @@ const Index = () => {
               Willkommen bei der artis GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Ihr zuverlässiger Partner für professionelle Bauplanung und modernste 3D-Scanner-Technologie
+              Ihr zuverlässiger Partner für professionelle Logistikdienstleistungen und effiziente Transportlösungen
             </p>
           </div>
         </section>
@@ -35,11 +35,11 @@ const Index = () => {
                 <Calculator />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Ingenieurbüro
+                Transportlogistik
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Professionelle Tragwerksplanung, Statik und Bauingenieurdienstleistungen für Ihr Bauprojekt. 
-                Von der ersten Idee bis zur erfolgreichen Umsetzung.
+                Professionelle Transportdienstleistungen und Logistiklösungen für Ihr Unternehmen. 
+                Von der ersten Anfrage bis zur erfolgreichen Lieferung.
               </p>
               <Link 
                 to="/ingenieurburo"
@@ -54,17 +54,17 @@ const Index = () => {
                 <Building />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                3D-Scanner Vermietung
+                Fuhrpark-Management
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Modernste 3D-Scanner-Technologie zum Mieten. Präzise Vermessung und digitale Erfassung 
-                für Ihre Bauprojekte und Dokumentationen.
+                Modernste Fahrzeugflotte und professionelles Fuhrpark-Management. Zuverlässige Lieferungen 
+                und optimierte Transportrouten für maximale Effizienz.
               </p>
               <Link 
                 to="/3d-scanner"
                 className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded-md font-semibold hover:bg-primary/90 transition-colors"
               >
-                Zur Vermietung →
+                Zu den Services →
               </Link>
             </div>
           </div>
@@ -82,9 +82,9 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Calculator className="text-primary-foreground w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Bauplanung</h3>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">Transportlogistik</h3>
                 <p className="text-muted-foreground">
-                  Professionelle Planung und Statik für Ihr Bauvorhaben
+                  Professionelle Transportplanung und Logistiklösungen
                 </p>
               </div>
               
@@ -92,9 +92,9 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Building className="text-primary-foreground w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">3D-Scanner</h3>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">Fuhrpark</h3>
                 <p className="text-muted-foreground">
-                  Modernste Vermessungstechnik zum Mieten oder Kaufen
+                  Moderne Fahrzeugflotte für alle Transportanforderungen
                 </p>
               </div>
               

@@ -8,9 +8,9 @@ const Ingenieurburo = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Ingenieurbüro - artis GmbH"
-        description="Professionelle Tragwerksplanung und Bauingenieurdienstleistungen. Statische Berechnungen, Konstruktionspläne und umfassende Projektbetreuung."
-        keywords="Ingenieurbüro, Tragwerksplanung, Statik, Bauingenieur, Konstruktion, Berechnungen"
+        title="Transportlogistik - artis GmbH"
+        description="Professionelle Transportdienstleistungen und Logistiklösungen. Effiziente Lieferketten, Speditionsservice und umfassende Projektbetreuung."
+        keywords="Transportlogistik, Spedition, Lieferketten, Transport, Logistik, Frachtservice"
       />
       <Header />
       
@@ -19,10 +19,10 @@ const Ingenieurburo = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              Ingenieurbüro artis GmbH
+              Transportlogistik artis GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Professionelle Tragwerksplanung und Bauingenieurdienstleistungen für Ihr Bauprojekt
+              Professionelle Transportdienstleistungen und Logistiklösungen für Ihr Unternehmen
             </p>
           </div>
         </section>
@@ -35,11 +35,11 @@ const Ingenieurburo = () => {
                 <Calculator />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Tragwerksplanung
+                Speditionsservice
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Statische Berechnungen und Konstruktionspläne für Neubauten, Umbauten und Sanierungen. 
-                Professionelle Planung nach aktuellen Normen und Vorschriften.
+                Professioneller Transport von Waren und Gütern für Industrie und Handel. 
+                Termingerechte Lieferungen nach höchsten Qualitätsstandards.
               </p>
             </div>
 
@@ -48,11 +48,11 @@ const Ingenieurburo = () => {
                 <Building />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Baubegleitung
+                Lieferkettenmanagement
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Fachkundige Begleitung Ihres Bauprojekts von der Planung bis zur Fertigstellung. 
-                Qualitätskontrolle und Koordination aller beteiligten Gewerke.
+                Fachkundige Begleitung Ihrer Lieferketten von der Bestellung bis zur Zustellung. 
+                Qualitätskontrolle und Koordination aller beteiligten Partner.
               </p>
             </div>
 
@@ -61,11 +61,11 @@ const Ingenieurburo = () => {
                 <FileText />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Gutachten & Prüfung
+                Lagerlogistik
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Sachverständigengutachten, Bauwerksdiagnose und statische Prüfungen. 
-                Bewertung bestehender Konstruktionen und Sanierungskonzepte.
+                Professionelle Lagerverwaltung, Kommissionierung und Versandabwicklung. 
+                Optimierte Lagerprozesse und moderne Warenwirtschaftssysteme.
               </p>
             </div>
 
@@ -74,11 +74,11 @@ const Ingenieurburo = () => {
                 <Users />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Beratung
+                Logistikberatung
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Umfassende technische Beratung für Bauherren, Architekten und Investoren. 
-                Machbarkeitsstudien und wirtschaftliche Lösungsansätze.
+                Umfassende Logistikberatung für Unternehmen, Händler und Produzenten. 
+                Optimierungsstudien und kosteneffiziente Transportlösungen.
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Ingenieurburo = () => {
             </h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
               Laden Sie unsere Leistungsübersicht herunter und erfahren Sie mehr über unsere 
-              umfassenden Ingenieursdienstleistungen.
+              umfassenden Logistikdienstleistungen.
             </p>
             <Link 
               to="/kontakt"

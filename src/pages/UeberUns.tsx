@@ -9,8 +9,8 @@ const UeberUns = () => {
     <div className="min-h-screen bg-background">
       <SEOHelmet 
         title="Über uns - artis GmbH"
-        description="Ihr kompetenter Partner für Bauingenieurwesen und innovative Vermessungstechnik seit über einem Jahrzehnt. Erfahren Sie mehr über unser Unternehmen."
-        keywords="Unternehmen, Team, Erfahrung, Bauingenieurwesen, Vermessungstechnik, artis Geschichte"
+        description="Ihr kompetenter Partner für Logistikdienstleistungen und innovatives Transportwesen seit über einem Jahrzehnt. Erfahren Sie mehr über unser Unternehmen."
+        keywords="Unternehmen, Team, Erfahrung, Logistik, Transportwesen, artis Geschichte"
       />
       <Header />
       
@@ -22,7 +22,7 @@ const UeberUns = () => {
               Über uns - artis GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Ihr kompetenter Partner für Bauingenieurwesen und innovative Vermessungstechnik seit über einem Jahrzehnt
+              Ihr kompetenter Partner für Logistikdienstleistungen und innovatives Transportwesen seit über einem Jahrzehnt
             </p>
           </div>
         </section>
@@ -36,13 +36,13 @@ const UeberUns = () => {
                   Unsere Geschichte
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Die artis GmbH wurde mit der Vision gegründet, erstklassige Ingenieurdienstleistungen 
-                  und modernste Vermessungstechnik unter einem Dach zu vereinen. Seit unserer Gründung 
-                  haben wir uns als zuverlässiger Partner für Bauherren, Architekten und Investoren etabliert.
+                  Die artis GmbH wurde mit der Vision gegründet, erstklassige Logistikdienstleistungen 
+                  und modernste Transporttechnik unter einem Dach zu vereinen. Seit unserer Gründung 
+                  haben wir uns als zuverlässiger Partner für Industrie, Handel und Gewerbe etabliert.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Unser interdisziplinäres Team aus erfahrenen Bauingenieuren und Vermessungstechnikern 
-                  arbeitet täglich daran, innovative Lösungen für komplexe Bauaufgaben zu entwickeln und 
+                  Unser interdisziplinäres Team aus erfahrenen Logistikexperten und Transportprofis 
+                  arbeitet täglich daran, innovative Lösungen für komplexe Transportaufgaben zu entwickeln und 
                   höchste Qualitätsstandards zu gewährleisten.
                 </p>
               </div>

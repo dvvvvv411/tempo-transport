@@ -12,7 +12,7 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <SEOHelmet 
         title="Kontakt - ASH artis GmbH"
-        description="Kontaktieren Sie ASH artis GmbH für Ihre Bauplanung und 3D-Technik Anfragen. E-Mail und Anschrift für direkten Kontakt."
+        description="Kontaktieren Sie ASH artis GmbH für Ihre Logistik und Transport Anfragen. E-Mail und Anschrift für direkten Kontakt."
         keywords="Kontakt, Telefon, E-Mail, Adresse, Beratung, Anfrage, artis GmbH"
       />
       <Header />
@@ -161,22 +161,22 @@ const Contact = () => {
               Warum ASH artis GmbH wählen?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="p-6">
+               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Erfahrung</h3>
                 <p className="text-muted-foreground">
-                  Über 15 Jahre Expertise in der Baubranche und Ingenieurswesen
+                  Über 15 Jahre Expertise in der Logistikbranche und Transportwesen
                 </p>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Qualität</h3>
                 <p className="text-muted-foreground">
-                  Höchste Standards bei Planung, Beratung und Projektabwicklung
+                  Höchste Standards bei Transport, Lagerung und Projektabwicklung
                 </p>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Service</h3>
                 <p className="text-muted-foreground">
-                  Persönliche Betreuung und maßgeschneiderte Lösungen für Ihr Projekt
+                  Persönliche Betreuung und maßgeschneiderte Lösungen für Ihr Unternehmen
                 </p>
               </div>
             </div>
