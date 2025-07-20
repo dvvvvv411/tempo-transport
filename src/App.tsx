@@ -24,8 +24,8 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <CookieBanner />
         <BrowserRouter>
+          <CookieBanner />
           <InsolvencyWrapper />
         <Routes>
           <Route path="/" element={<Index />} />
