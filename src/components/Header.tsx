@@ -1,4 +1,4 @@
-import { Building2 } from "lucide-react";
+import { Truck } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Building2 className="h-8 w-8 text-primary" />
+            <Truck className="h-8 w-8 text-primary" />
             <span className="text-xl font-bold text-foreground">TEMPO Transport GmbH</span>
           </Link>
 

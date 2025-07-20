@@ -9,7 +9,7 @@ const UeberUns = () => {
     <div className="min-h-screen bg-background">
       <SEOHelmet 
         title="Über uns - TEMPO Transport GmbH"
-        description="Ihr kompetenter Partner für Logistikdienstleistungen und innovatives Transportwesen seit über einem Jahrzehnt. Erfahren Sie mehr über unser Unternehmen."
+        description="Professionelle Logistik- und Transportdienstleistungen seit über 8 Jahren. TEMPO Transport GmbH - Ihr zuverlässiger Partner für effiziente Transportlösungen."
         keywords="Unternehmen, Team, Erfahrung, Logistik, Transportwesen, TEMPO Geschichte"
       />
       <Header />
@@ -22,7 +22,7 @@ const UeberUns = () => {
               Über uns - TEMPO Transport GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Ihr kompetenter Partner für Logistikdienstleistungen und innovatives Transportwesen seit über einem Jahrzehnt
+              Ihr zuverlässiger Partner für Logistik und Transport mit über 8 Jahren Erfahrung
             </p>
           </div>
         </section>
@@ -48,8 +48,8 @@ const UeberUns = () => {
               </div>
               <div className="flex justify-center">
                 <img 
-                  src="/lovable-uploads/7e85d39a-a556-4d90-a93b-22d29564652d.png" 
-                  alt="Ingenieurspläne und Bauzeichnungen mit Werkzeugen" 
+                  src="/lovable-uploads/0fa64624-3ffd-44f5-aaca-de67ea2081ee.png" 
+                  alt="Logistik und Transport - LKW, Flugzeug und Pakete auf Weltkarte" 
                   className="rounded-lg shadow-lg max-w-full h-auto"
                 />
               </div>
