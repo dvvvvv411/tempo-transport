@@ -28,7 +28,7 @@ export const InsolvencyPopup = ({ onClose }: InsolvencyPopupProps) => {
   };
 
   const handleLawFirmClick = () => {
-    window.open("https://hess-anwaltskanzlei.de", "_blank");
+    window.open("https://wiedemann-kanzlei.de", "_blank");
   };
 
   return (
@@ -58,17 +58,17 @@ export const InsolvencyPopup = ({ onClose }: InsolvencyPopupProps) => {
               Insolvenzverwalter:
             </h3>
             <div className="space-y-2">
-              <p className="font-semibold">Dr. Kai Henrik Heß</p>
+              <p className="font-semibold">Dr. Frank M. Wiedemann</p>
               <p>Rechtsanwalt</p>
               <p>Fachanwalt für Insolvenzrecht</p>
               <div className="mt-4 space-y-1">
-                <p>Marienstr. 19/20</p>
-                <p>10117 Berlin</p>
+                <p>Eupener Str. 181</p>
+                <p>52066 Aachen</p>
               </div>
               <div className="mt-4 space-y-1">
-                <p>Tel.: (030) 75420496</p>
-                <p>E-Mail: k.hess@hess-anwaltskanzlei.de</p>
-                <p>Internet: https://hess-anwaltskanzlei.de</p>
+                <p>Tel.: (0241) 94223033</p>
+                <p>E-Mail: f.wiedemann@wiedemann-kanzlei.de</p>
+                <p>Internet: https://wiedemann-kanzlei.de</p>
               </div>
             </div>
           </div>
