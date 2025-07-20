@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { X, Cookie } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 export const CookieBanner = () => {
@@ -38,12 +39,12 @@ export const CookieBanner = () => {
                 <p className="text-muted-foreground">
                   Wir verwenden Cookies, um Ihnen die bestmögliche Nutzererfahrung zu bieten. 
                   Weitere Informationen finden Sie in unserer{" "}
-                  <a 
-                    href="/datenschutz" 
+                  <Link 
+                    to="/datenschutz" 
                     className="text-primary hover:underline"
                   >
                     Datenschutzerklärung
-                  </a>.
+                  </Link>.
                 </p>
               </div>
             </div>

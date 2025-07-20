@@ -1,4 +1,5 @@
 import { Users, Award, Calendar, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import artisLogo from "@/assets/artis-logo.jpg";
@@ -134,12 +135,12 @@ const UeberUns = () => {
               Haben Sie Fragen zu unseren Dienstleistungen oder möchten Sie mehr über unser 
               Unternehmen erfahren? Nehmen Sie gerne Kontakt mit uns auf.
             </p>
-            <a 
-              href="/kontakt"
+            <Link 
+              to="/kontakt"
               className="inline-block bg-primary text-primary-foreground px-8 py-4 rounded-md font-semibold hover:bg-primary/90 transition-colors"
             >
               Kontakt aufnehmen →
-            </a>
+            </Link>
           </div>
         </section>
       </div>
