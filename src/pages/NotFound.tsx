@@ -17,8 +17,8 @@ const NotFound = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Seite nicht gefunden - artis GmbH"
-        description="Die angeforderte Seite wurde nicht gefunden. Zurück zur artis GmbH Homepage."
+        title="Seite nicht gefunden - TEMPO Transport GmbH"
+        description="Die angeforderte Seite wurde nicht gefunden. Zurück zur TEMPO Transport GmbH Homepage."
         keywords="404, Seite nicht gefunden, Error"
       />
       <Header />

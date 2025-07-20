@@ -17,7 +17,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Building2 className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">artis GmbH</span>
+            <span className="text-xl font-bold text-foreground">TEMPO Transport GmbH</span>
           </Link>
 
           {/* Navigation */}

@@ -8,7 +8,7 @@ const Scanner = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Fuhrpark-Management - artis GmbH"
+        title="Fuhrpark-Management - TEMPO Transport GmbH"
         description="Professionelle Fuhrpark-Services für Ihre Transportanforderungen. Moderne Fahrzeugflotte für effiziente Logistiklösungen."
         keywords="Fuhrpark, Fahrzeugflotte, Transport, LKW, Logistik, Spedition"
       />

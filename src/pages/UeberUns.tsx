@@ -8,9 +8,9 @@ const UeberUns = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Über uns - artis GmbH"
+        title="Über uns - TEMPO Transport GmbH"
         description="Ihr kompetenter Partner für Logistikdienstleistungen und innovatives Transportwesen seit über einem Jahrzehnt. Erfahren Sie mehr über unser Unternehmen."
-        keywords="Unternehmen, Team, Erfahrung, Logistik, Transportwesen, artis Geschichte"
+        keywords="Unternehmen, Team, Erfahrung, Logistik, Transportwesen, TEMPO Geschichte"
       />
       <Header />
       
@@ -19,7 +19,7 @@ const UeberUns = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              Über uns - artis GmbH
+              Über uns - TEMPO Transport GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
               Ihr kompetenter Partner für Logistikdienstleistungen und innovatives Transportwesen seit über einem Jahrzehnt
@@ -36,7 +36,7 @@ const UeberUns = () => {
                   Unsere Geschichte
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Die artis GmbH wurde mit der Vision gegründet, erstklassige Logistikdienstleistungen 
+                  Die TEMPO Transport GmbH wurde mit der Vision gegründet, erstklassige Logistikdienstleistungen 
                   und modernste Transporttechnik unter einem Dach zu vereinen. Seit unserer Gründung 
                   haben wir uns als zuverlässiger Partner für Industrie, Handel und Gewerbe etabliert.
                 </p>

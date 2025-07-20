@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           
           <div className="text-sm text-center md:text-right">
-            <div>© 2025 artis GmbH. Alle Rechte vorbehalten.</div>
+            <div>© 2025 TEMPO Transport GmbH. Alle Rechte vorbehalten.</div>
             <div className="mt-1">Letzte Aktualisierung: Juli 2025</div>
           </div>
         </div>

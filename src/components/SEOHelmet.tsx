@@ -8,9 +8,9 @@ interface SEOHelmetProps {
 }
 
 export const SEOHelmet = ({ 
-  title = "artis GmbH - Ihr Partner für professionelle Bauplanung & 3D-Technik",
-  description = "artis GmbH bietet umfassende Ingenieursdienstleistungen: Tragwerksplanung, Baubegleitung, Gutachten & Prüfungen sowie professionelle Beratung für Ihr Bauprojekt.",
-  keywords = "Bauplanung, 3D-Technik, Tragwerksplanung, Baubegleitung, Ingenieursbüro, Bauprojekte, Gutachten, Prüfungen, artis GmbH",
+  title = "TEMPO Transport GmbH - Ihr Partner für professionelle Logistikdienstleistungen",
+  description = "TEMPO Transport GmbH bietet umfassende Logistikdienstleistungen: Transportlogistik, Fuhrpark-Management sowie professionelle Beratung für Ihr Unternehmen.",
+  keywords = "Logistik, Transport, Spedition, Fuhrpark, Lagerlogistik, Transportdienstleistungen, TEMPO Transport GmbH",
   canonical
 }: SEOHelmetProps) => {
   return (

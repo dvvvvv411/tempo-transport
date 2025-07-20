@@ -8,7 +8,7 @@ const Ingenieurburo = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Transportlogistik - artis GmbH"
+        title="Transportlogistik - TEMPO Transport GmbH"
         description="Professionelle Transportdienstleistungen und Logistiklösungen. Effiziente Lieferketten, Speditionsservice und umfassende Projektbetreuung."
         keywords="Transportlogistik, Spedition, Lieferketten, Transport, Logistik, Frachtservice"
       />
@@ -19,7 +19,7 @@ const Ingenieurburo = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              Transportlogistik artis GmbH
+              Transportlogistik TEMPO Transport GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
               Professionelle Transportdienstleistungen und Logistiklösungen für Ihr Unternehmen

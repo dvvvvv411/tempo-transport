@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Kontakt - ASH artis GmbH"
-        description="Kontaktieren Sie ASH artis GmbH für Ihre Logistik und Transport Anfragen. E-Mail und Anschrift für direkten Kontakt."
-        keywords="Kontakt, Telefon, E-Mail, Adresse, Beratung, Anfrage, artis GmbH"
+        title="Kontakt - TEMPO Transport GmbH"
+        description="Kontaktieren Sie TEMPO Transport GmbH für Ihre Logistik und Transport Anfragen. E-Mail und Anschrift für direkten Kontakt."
+        keywords="Kontakt, Telefon, E-Mail, Adresse, Beratung, Anfrage, TEMPO Transport GmbH"
       />
       <Header />
       
@@ -47,10 +47,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Adresse</h3>
                     <p className="text-muted-foreground">
-                      ASH artis GmbH<br />
-                      Bessemerstr. 82<br />
-                      1 Süd<br />
-                      12103 Berlin<br />
+                      TEMPO Transport GmbH<br />
+                      Lange Heide 15<br />
+                      50374 Erftstadt<br />
                       Deutschland
                     </p>
                   </div>
@@ -64,8 +63,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">E-Mail</h3>
                     <p className="text-muted-foreground">
-                      info@artis-projects.com<br />
-                      service@artis-projects.com
+                      info@tempo-logistik.de
                     </p>
                   </div>
                 </div>
@@ -158,7 +156,7 @@ const Contact = () => {
         <section className="py-16 px-8 bg-muted/50">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-foreground">
-              Warum ASH artis GmbH wählen?
+              Warum TEMPO Transport GmbH wählen?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
                <div className="p-6">

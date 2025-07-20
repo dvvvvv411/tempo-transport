@@ -8,9 +8,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="artis GmbH - Logistik & Transport"
+        title="TEMPO Transport GmbH - Logistik & Transport"
         description="Ihr zuverlässiger Partner für professionelle Logistikdienstleistungen und effiziente Transportlösungen. Umfassende Speditions- und Lagerservices."
-        keywords="Logistik, Transport, Spedition, Fuhrpark, Lagerlogistik, Transportdienstleistungen, artis GmbH"
+        keywords="Logistik, Transport, Spedition, Fuhrpark, Lagerlogistik, Transportdienstleistungen, TEMPO Transport GmbH"
       />
       <Header />
       
@@ -19,7 +19,7 @@ const Index = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              Willkommen bei der artis GmbH
+              Willkommen bei der TEMPO Transport GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
               Ihr zuverlässiger Partner für professionelle Logistikdienstleistungen und effiziente Transportlösungen
