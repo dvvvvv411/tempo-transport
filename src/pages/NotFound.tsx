@@ -18,7 +18,7 @@ const NotFound = () => {
     <div className="min-h-screen bg-background">
       <SEOHelmet 
         title="Seite nicht gefunden - Marina Technik GmbH"
-        description="Die angeforderte Seite wurde nicht gefunden. Zurück zur TEMPO Transport GmbH Homepage."
+        description="Die angeforderte Seite wurde nicht gefunden. Zurück zur Marina Technik GmbH Homepage."
         keywords="404, Seite nicht gefunden, Error"
       />
       <Header />
