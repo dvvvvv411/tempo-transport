@@ -8,9 +8,9 @@ const Ingenieurburo = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Transportlogistik - TEMPO Transport GmbH"
-        description="Professionelle Transportdienstleistungen und Logistiklösungen. Effiziente Lieferketten, Speditionsservice und umfassende Projektbetreuung."
-        keywords="Transportlogistik, Spedition, Lieferketten, Transport, Logistik, Frachtservice"
+        title="Metallbearbeitung - Marina Technik GmbH"
+        description="Professionelle Metallbearbeitungsdienstleistungen und Montagelösungen. Schweißarbeiten, CNC-Bearbeitung, Blechbearbeitung und komplette Projektbetreuung."
+        keywords="Metallbearbeitung, Schweißen, CNC-Bearbeitung, Montage, Blechbearbeitung, Stahlbau"
       />
       <Header />
       
@@ -19,10 +19,10 @@ const Ingenieurburo = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              Transportlogistik TEMPO Transport GmbH
+              Metallbearbeitung Marina Technik GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Professionelle Transportdienstleistungen und Logistiklösungen für Ihr Unternehmen
+              Professionelle Metallbearbeitungs- und Montagedienstleistungen für Ihr Unternehmen
             </p>
           </div>
         </section>
@@ -35,11 +35,11 @@ const Ingenieurburo = () => {
                 <Calculator />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Speditionsservice
+                Schweißarbeiten
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Professioneller Transport von Waren und Gütern für Industrie und Handel. 
-                Termingerechte Lieferungen nach höchsten Qualitätsstandards.
+                Professionelle Schweißarbeiten für Industrie und Handwerk. 
+                Alle gängigen Schweißverfahren nach höchsten Qualitätsstandards.
               </p>
             </div>
 
@@ -48,11 +48,11 @@ const Ingenieurburo = () => {
                 <Building />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Lieferkettenmanagement
+                CNC-Bearbeitung
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Fachkundige Begleitung Ihrer Lieferketten von der Bestellung bis zur Zustellung. 
-                Qualitätskontrolle und Koordination aller beteiligten Partner.
+                Präzise CNC-Bearbeitung von Metallen und Werkstoffen. 
+                Modernste Maschinen für höchste Genauigkeit und Oberflächenqualität.
               </p>
             </div>
 
@@ -61,11 +61,11 @@ const Ingenieurburo = () => {
                 <FileText />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Lagerlogistik
+                Blechbearbeitung
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Professionelle Lagerverwaltung, Kommissionierung und Versandabwicklung. 
-                Optimierte Lagerprozesse und moderne Warenwirtschaftssysteme.
+                Professionelle Blechbearbeitung, Stanzen, Biegen und Formen. 
+                Von Einzelstücken bis zur Serienfertigung mit modernster Technik.
               </p>
             </div>
 
@@ -74,11 +74,11 @@ const Ingenieurburo = () => {
                 <Users />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Logistikberatung
+                Montage & Assembly
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Umfassende Logistikberatung für Unternehmen, Händler und Produzenten. 
-                Optimierungsstudien und kosteneffiziente Transportlösungen.
+                Komplette Montage und Assemblierung von Metallkonstruktionen. 
+                Fachgerechte Installation und Montage vor Ort beim Kunden.
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Ingenieurburo = () => {
             </h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
               Laden Sie unsere Leistungsübersicht herunter und erfahren Sie mehr über unsere 
-              umfassenden Logistikdienstleistungen.
+              umfassenden Metallbearbeitungsdienstleistungen.
             </p>
             <Link 
               to="/kontakt"

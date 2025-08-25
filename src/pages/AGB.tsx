@@ -6,8 +6,8 @@ const AGB = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="AGB - TEMPO Transport GmbH"
-        description="Allgemeine Geschäftsbedingungen der TEMPO Transport GmbH für Logistik und Transportdienstleistungen."
+        title="AGB - Marina Technik GmbH"
+        description="Allgemeine Geschäftsbedingungen der Marina Technik GmbH für Metallbearbeitung und Montage."
         keywords="AGB, Geschäftsbedingungen, Vertragsbedingungen, Rechtliches"
       />
       <Header />
@@ -19,7 +19,7 @@ const AGB = () => {
               Allgemeine Geschäftsbedingungen
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Geschäftsbedingungen der TEMPO Transport GmbH
+              Geschäftsbedingungen der Marina Technik GmbH
             </p>
           </div>
         </section>
@@ -32,7 +32,7 @@ const AGB = () => {
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge über die Lieferung von Waren 
-                  und die Erbringung von Leistungen, die zwischen der TEMPO Transport GmbH (nachfolgend "Auftragnehmer") 
+                  und die Erbringung von Leistungen, die zwischen Marina Technik GmbH (nachfolgend "Auftragnehmer") 
                   und ihren Auftraggebern (nachfolgend "Auftraggeber") abgeschlossen werden.
                 </p>
                 

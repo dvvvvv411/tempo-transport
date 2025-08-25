@@ -8,9 +8,9 @@ interface SEOHelmetProps {
 }
 
 export const SEOHelmet = ({ 
-  title = "TEMPO Transport GmbH - Ihr Partner für professionelle Logistikdienstleistungen",
-  description = "TEMPO Transport GmbH bietet umfassende Logistikdienstleistungen: Transportlogistik, Fuhrpark-Management sowie professionelle Beratung für Ihr Unternehmen.",
-  keywords = "Logistik, Transport, Spedition, Fuhrpark, Lagerlogistik, Transportdienstleistungen, TEMPO Transport GmbH",
+  title = "Marina Technik GmbH - Die Montage und Metallbearbeitung aller Art",
+  description = "Marina Technik GmbH bietet professionelle Metallbearbeitung und Montagedienstleistungen: Schweißarbeiten, CNC-Bearbeitung, Blechbearbeitung und komplette Montage.",
+  keywords = "Metallbearbeitung, Montage, Schweißen, CNC-Bearbeitung, Blechbearbeitung, Stahlbau, Marina Technik GmbH",
   canonical
 }: SEOHelmetProps) => {
   return (

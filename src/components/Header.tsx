@@ -1,11 +1,11 @@
-import { Truck } from "lucide-react";
+import { Wrench } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   const navItems = [
     { name: "Startseite", href: "/" },
-    { name: "Transportlogistik", href: "/ingenieurburo" },
-    { name: "Fuhrpark", href: "/3d-scanner" },
+    { name: "Metallbearbeitung", href: "/ingenieurburo" },
+    { name: "3D-Scanner", href: "/3d-scanner" },
     { name: "Über uns", href: "/ueber-uns" },
     { name: "Kontakt", href: "/kontakt" },
   ];
@@ -16,8 +16,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Truck className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">TEMPO Transport GmbH</span>
+            <Wrench className="h-8 w-8 text-primary" />
+            <span className="text-xl font-bold text-foreground">Marina Technik GmbH</span>
           </Link>
 
           {/* Navigation */}

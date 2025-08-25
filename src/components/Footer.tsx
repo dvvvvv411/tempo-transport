@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           
           <div className="text-sm text-center md:text-right">
-            <div>© 2025 TEMPO Transport GmbH. Alle Rechte vorbehalten.</div>
+            <div>© 2025 Marina Technik GmbH. Alle Rechte vorbehalten.</div>
           </div>
         </div>
       </div>

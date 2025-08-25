@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Kontakt - TEMPO Transport GmbH"
-        description="Kontaktieren Sie TEMPO Transport GmbH für Ihre Logistik und Transport Anfragen. E-Mail und Anschrift für direkten Kontakt."
-        keywords="Kontakt, Telefon, E-Mail, Adresse, Beratung, Anfrage, TEMPO Transport GmbH"
+        title="Kontakt - Marina Technik GmbH"
+        description="Kontaktieren Sie Marina Technik GmbH für Ihre Metallbearbeitung und Montage Anfragen. E-Mail und Anschrift für direkten Kontakt."
+        keywords="Kontakt, Telefon, E-Mail, Adresse, Beratung, Anfrage, Marina Technik GmbH"
       />
       <Header />
       
@@ -47,9 +47,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Adresse</h3>
                     <p className="text-muted-foreground">
-                      TEMPO Transport GmbH<br />
-                      Lange Heide 15<br />
-                      50374 Erftstadt<br />
+                      Marina Technik GmbH<br />
+                      Heresbachstr. 4<br />
+                      42719 Solingen<br />
                       Deutschland
                     </p>
                   </div>
@@ -75,7 +75,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">E-Mail</h3>
                     <p className="text-muted-foreground">
-                      info@tempo-logistik.de
+                      info@marina-metall.de
                     </p>
                   </div>
                 </div>
@@ -168,19 +168,19 @@ const Contact = () => {
         <section className="py-16 px-8 bg-muted/50">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-foreground">
-              Warum TEMPO Transport GmbH wählen?
+              Warum Marina Technik GmbH wählen?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
                <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Erfahrung</h3>
                 <p className="text-muted-foreground">
-                  Über 8 Jahre Expertise in der Logistikbranche und Transportwesen
+                  Über 8 Jahre Expertise in der Metallbearbeitung und Fertigungstechnik
                 </p>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Qualität</h3>
                 <p className="text-muted-foreground">
-                  Höchste Standards bei Transport, Lagerung und Projektabwicklung
+                  Höchste Standards bei Schweißen, CNC-Bearbeitung und Montage
                 </p>
               </div>
               <div className="p-6">

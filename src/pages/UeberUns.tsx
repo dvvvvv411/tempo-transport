@@ -9,9 +9,9 @@ const UeberUns = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Über uns - TEMPO Transport GmbH"
-        description="Professionelle Logistik- und Transportdienstleistungen seit über 8 Jahren. TEMPO Transport GmbH - Ihr zuverlässiger Partner für effiziente Transportlösungen."
-        keywords="Unternehmen, Team, Erfahrung, Logistik, Transportwesen, TEMPO Geschichte"
+        title="Über uns - Marina Technik GmbH"
+        description="Professionelle Metallbearbeitung und Montage seit über 8 Jahren. Marina Technik GmbH - Ihr zuverlässiger Partner für die Metallbearbeitung aller Art."
+        keywords="Unternehmen, Team, Erfahrung, Metallbearbeitung, Montage, Marina Geschichte"
       />
       <Header />
       
@@ -20,10 +20,10 @@ const UeberUns = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              Über uns - TEMPO Transport GmbH
+              Über uns - Marina Technik GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Ihr zuverlässiger Partner für Logistik und Transport mit über 8 Jahren Erfahrung
+              Ihr zuverlässiger Partner für Metallbearbeitung und Montage mit über 8 Jahren Erfahrung
             </p>
           </div>
         </section>
@@ -37,20 +37,20 @@ const UeberUns = () => {
                   Unsere Geschichte
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Die TEMPO Transport GmbH wurde mit der Vision gegründet, erstklassige Logistikdienstleistungen 
-                  und modernste Transporttechnik unter einem Dach zu vereinen. Seit unserer Gründung 
+                  Marina Technik GmbH wurde mit der Vision gegründet, erstklassige Metallbearbeitungsdienstleistungen 
+                  und modernste Fertigungstechnik unter einem Dach zu vereinen. Seit unserer Gründung 
                   haben wir uns als zuverlässiger Partner für Industrie, Handel und Gewerbe etabliert.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Unser interdisziplinäres Team aus erfahrenen Logistikexperten und Transportprofis 
-                  arbeitet täglich daran, innovative Lösungen für komplexe Transportaufgaben zu entwickeln und 
+                  Unser interdisziplinäres Team aus erfahrenen Metallbauexperten und Fertigungsprofis 
+                  arbeitet täglich daran, innovative Lösungen für komplexe Metallbearbeitungsaufgaben zu entwickeln und 
                   höchste Qualitätsstandards zu gewährleisten.
                 </p>
               </div>
               <div className="flex justify-center">
                 <img 
                   src="/lovable-uploads/0fa64624-3ffd-44f5-aaca-de67ea2081ee.png" 
-                  alt="Logistik und Transport - LKW, Flugzeug und Pakete auf Weltkarte" 
+                  alt="Metallbearbeitung und Fertigung - Werkzeuge und Maschinen" 
                   className="rounded-lg shadow-lg max-w-full h-auto"
                 />
               </div>
@@ -102,7 +102,7 @@ const UeberUns = () => {
                   Termintreue & Zuverlässigkeit
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Pünktliche Lieferung und Einhaltung vereinbarter Termine sind für uns 
+                  Termingerechte Fertigung und Einhaltung vereinbarter Termine sind für uns 
                   selbstverständlich. Unsere Kunden können sich auf unsere Zusagen verlassen 
                   und termingerecht planen.
                 </p>

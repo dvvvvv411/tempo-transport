@@ -6,9 +6,9 @@ const Impressum = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Impressum - TEMPO Transport GmbH"
-        description="Rechtliche Angaben und Impressum der TEMPO Transport GmbH für Logistik und Transportdienstleistungen."
-        keywords="Impressum, Rechtliches, Kontaktdaten, TEMPO Transport GmbH"
+        title="Impressum - Marina Technik GmbH"
+        description="Rechtliche Angaben und Impressum der Marina Technik GmbH für Metallbearbeitung und Montage."
+        keywords="Impressum, Rechtliches, Kontaktdaten, Marina Technik GmbH"
       />
       <Header />
       
@@ -19,7 +19,7 @@ const Impressum = () => {
               Impressum
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Rechtliche Informationen über die TEMPO Transport GmbH
+              Rechtliche Informationen über Marina Technik GmbH
             </p>
           </div>
         </section>
@@ -30,14 +30,14 @@ const Impressum = () => {
               <h2 className="text-2xl font-semibold mb-6 text-foreground">Firmeninformationen</h2>
               
               <div className="space-y-4 text-muted-foreground">
-                <p><strong>Firmenname:</strong> TEMPO Transport GmbH</p>
-                <p><strong>Geschäftsführer:</strong> Kaan Andre Gündüz</p>
-                <p><strong>Anschrift:</strong> Lange Heide 15<br />
-                   50374 Erftstadt</p>
+                <p><strong>Firmenname:</strong> Marina Technik GmbH</p>
+                <p><strong>Geschäftsführerin:</strong> Fatma Güven</p>
+                <p><strong>Anschrift:</strong> Heresbachstr. 4<br />
+                   42719 Solingen</p>
                 <p><strong>Telefon:</strong> +49 241 94223026</p>
-                <p><strong>E-Mail:</strong> info@tempo-logistik.de</p>
-                <p><strong>Handelsregister:</strong> HRB 110780</p>
-                <p><strong>Registergericht:</strong> Amtsgericht Köln</p>
+                <p><strong>E-Mail:</strong> info@marina-metall.de</p>
+                <p><strong>Handelsregister:</strong> HRB 22102</p>
+                <p><strong>Registergericht:</strong> Amtsgericht Wuppertal</p>
                 <p><strong>USt-IdNr.:</strong> DE378729105</p>
               </div>
             </div>

@@ -8,9 +8,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="TEMPO Transport GmbH - Logistik & Transport"
-        description="Ihr zuverlässiger Partner für professionelle Logistikdienstleistungen und effiziente Transportlösungen. Umfassende Speditions- und Lagerservices."
-        keywords="Logistik, Transport, Spedition, Fuhrpark, Lagerlogistik, Transportdienstleistungen, TEMPO Transport GmbH"
+        title="Marina Technik GmbH - Die Montage und Metallbearbeitung aller Art"
+        description="Ihr zuverlässiger Partner für professionelle Metallbearbeitung und Montagedienstleistungen. Schweißarbeiten, CNC-Bearbeitung, Blechbearbeitung und komplette Montage."
+        keywords="Metallbearbeitung, Montage, Schweißen, CNC-Bearbeitung, Blechbearbeitung, Stahlbau, Marina Technik GmbH"
       />
       <Header />
       
@@ -19,10 +19,10 @@ const Index = () => {
         <section className="banner-section">
           <div className="relative z-10">
             <h1 className="text-4xl font-bold mb-6 leading-tight">
-              Willkommen bei der TEMPO Transport GmbH
+              Willkommen bei Marina Technik GmbH
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Ihr zuverlässiger Partner für professionelle Logistikdienstleistungen und effiziente Transportlösungen
+              Ihr zuverlässiger Partner für die Montage und Metallbearbeitung aller Art
             </p>
           </div>
         </section>
@@ -35,11 +35,11 @@ const Index = () => {
                 <Calculator />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Transportlogistik
+                Metallbearbeitung
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Professionelle Transportdienstleistungen und Logistiklösungen für Ihr Unternehmen. 
-                Von der ersten Anfrage bis zur erfolgreichen Lieferung.
+                Professionelle Metallbearbeitung und Schweißarbeiten für Ihr Unternehmen. 
+                Von der ersten Anfrage bis zur erfolgreichen Montage.
               </p>
               <Link 
                 to="/ingenieurburo"
@@ -54,11 +54,11 @@ const Index = () => {
                 <Building />
               </div>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                Fuhrpark-Management
+                CNC-Bearbeitung
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Modernste Fahrzeugflotte und professionelles Fuhrpark-Management. Zuverlässige Lieferungen 
-                und optimierte Transportrouten für maximale Effizienz.
+                Moderne CNC-Technologie und präzise Fertigung. Hochwertige Metallbearbeitung 
+                und maßgenaue Bauteile für maximale Qualität.
               </p>
               <Link 
                 to="/3d-scanner"
@@ -82,9 +82,9 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Calculator className="text-primary-foreground w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Transportlogistik</h3>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">Metallbearbeitung</h3>
                 <p className="text-muted-foreground">
-                  Professionelle Transportplanung und Logistiklösungen
+                  Professionelle Schweißarbeiten und Metallbearbeitung
                 </p>
               </div>
               
@@ -92,9 +92,9 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Building className="text-primary-foreground w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Fuhrpark</h3>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">CNC-Bearbeitung</h3>
                 <p className="text-muted-foreground">
-                  Moderne Fahrzeugflotte für alle Transportanforderungen
+                  Moderne CNC-Technologie für präzise Bauteile
                 </p>
               </div>
               
@@ -102,9 +102,9 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Wrench className="text-primary-foreground w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Service</h3>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">Montage</h3>
                 <p className="text-muted-foreground">
-                  Persönliche Betreuung von der Planung bis zur Umsetzung
+                  Komplette Montage von der Planung bis zur Umsetzung
                 </p>
               </div>
             </div>

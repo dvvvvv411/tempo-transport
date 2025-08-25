@@ -6,8 +6,8 @@ const Datenschutz = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHelmet 
-        title="Datenschutz - TEMPO Transport GmbH"
-        description="Datenschutzerklärung der TEMPO Transport GmbH. Informationen zum Umgang mit personenbezogenen Daten."
+        title="Datenschutz - Marina Technik GmbH"
+        description="Datenschutzerklärung der Marina Technik GmbH. Informationen zum Umgang mit personenbezogenen Daten."
         keywords="Datenschutz, DSGVO, Datenschutzerklärung, Privatsphäre"
       />
       <Header />
