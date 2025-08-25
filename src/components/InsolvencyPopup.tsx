@@ -28,7 +28,7 @@ export const InsolvencyPopup = ({ onClose }: InsolvencyPopupProps) => {
   };
 
   const handleLawFirmClick = () => {
-    window.open("https://wiedemann-kanzlei.de", "_blank");
+    window.open("https://kbs-kanzlei.de", "_blank");
   };
 
   return (
@@ -58,17 +58,17 @@ export const InsolvencyPopup = ({ onClose }: InsolvencyPopupProps) => {
               Insolvenzverwalter:
             </h3>
             <div className="space-y-2">
-              <p className="font-semibold">Dr. Frank M. Wiedemann</p>
+              <p className="font-semibold">Dr. Torsten Alexander Küpper</p>
               <p>Rechtsanwalt</p>
               <p>Fachanwalt für Insolvenzrecht</p>
               <div className="mt-4 space-y-1">
-                <p>Eupener Str. 181</p>
-                <p>52066 Aachen</p>
+                <p>Speldorfer Str. 2</p>
+                <p>40239 Düsseldorf</p>
               </div>
               <div className="mt-4 space-y-1">
-                <p>Tel.: (0241) 94223033</p>
-                <p>E-Mail: f.wiedemann@wiedemann-kanzlei.de</p>
-                <p>Internet: https://wiedemann-kanzlei.de</p>
+                <p>Tel.: (0211) 86943870</p>
+                <p>E-Mail: t.kuepper@kbs-kanzlei.de</p>
+                <p>Internet: https://kbs-kanzlei.de</p>
               </div>
             </div>
           </div>
