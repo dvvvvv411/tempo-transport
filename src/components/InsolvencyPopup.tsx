@@ -66,7 +66,7 @@ export const InsolvencyPopup = ({ onClose }: InsolvencyPopupProps) => {
                 <p>40239 Düsseldorf</p>
               </div>
               <div className="mt-4 space-y-1">
-                <p>Tel.: (0211) 86943870</p>
+                <p>Tel.: (0211) 54262200</p>
                 <p>E-Mail: t.kuepper@kbs-kanzlei.de</p>
                 <p>Internet: https://kbs-kanzlei.de</p>
               </div>
